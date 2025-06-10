@@ -143,7 +143,7 @@ else:
     URL = "http://{}/".format(FQDN)
 
 
-REACTIONS = []
+REACTIONS = ["🤝"]
 
 
 Bot_cmds = {
