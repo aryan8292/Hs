@@ -24,7 +24,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ea25e783d20f909b62c80.jpg https://graph.org/file/5f273c8cf1af49f453482.jpg')).split() 
 NOR_IMG = environ.get("NOR_IMG", "https://i.ibb.co/23BW1n7H/image.png")
-MELCOW_VID = environ.get("MELCOW_VID", "https://i.ibb.co/23BW1n7H/image.png")
+MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/e215d12bfd4fa2155e90e.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://i.ibb.co/23BW1n7H/image.png")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://i.ibb.co/23BW1n7H/image.png'))
 FSUB_IMG = (environ.get('FSUB_IMG', 'https://i.ibb.co/23BW1n7H/image.png')).split() 
