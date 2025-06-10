@@ -23,11 +23,11 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ea25e783d20f909b62c80.jpg https://graph.org/file/5f273c8cf1af49f453482.jpg')).split() 
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/62efbcc4e7580b76530ba.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/e215d12bfd4fa2155e90e.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/f983d857f3ce40795e4b8.jpg'))
-FSUB_IMG = (environ.get('FSUB_IMG', 'https://graph.org/file/ea25e783d20f909b62c80.jpg https://graph.org/file/5f273c8cf1af49f453482.jpg')).split() 
+NOR_IMG = environ.get("NOR_IMG", "https://envs.sh/Og9.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://envs.sh/Og9.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://envs.sh/Og9.jpg")
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/Og9.jpg'))
+FSUB_IMG = (environ.get('FSUB_IMG', 'https://envs.sh/Og9.jpg')).split() 
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7907742294').split()]  #Admin Id
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001924025792 -1002469626357 -1002212466294  -1001812588767 -1002132414127').split()] #Movie Database Channel Id
@@ -48,10 +48,10 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'mojahidalam8092')
 MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "True"), True) # Type True For Turn On MULTIPLE DB FUNTION 
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://mojahidalam8092:KV7D2VuonCcWlcA0@cluster0.mhmnwab.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/SA_movie_request_group')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/SA_Bots')
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Shahilakhtar')
-UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/SA_Bots')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/streamtub')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/streamtub')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/streamtub')
+UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/streamtub')
 
 #Force Subscription Channel (Put Same Channel Id In Both Veriables)
 AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002682692512')) 
@@ -143,7 +143,7 @@ else:
     URL = "http://{}/".format(FQDN)
 
 
-REACTIONS = ["🤝", "😇", "🤗", "😍", "👍", "🎅", "😐", "🥰", "🤩", "😱", "🤣", "😘", "👏", "😛", "😈", "🎉", "⚡️", "🫡", "🤓", "😎", "🏆", "🔥", "🤭", "🌚", "🆒", "👻", "😁"]
+REACTIONS = []
 
 
 Bot_cmds = {
