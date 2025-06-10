@@ -23,11 +23,11 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ea25e783d20f909b62c80.jpg https://graph.org/file/5f273c8cf1af49f453482.jpg')).split() 
-NOR_IMG = environ.get("NOR_IMG", "https://envs.sh/Og9.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://envs.sh/Og9.jpg")
-SPELL_IMG = environ.get("SPELL_IMG", "https://envs.sh/Og9.jpg")
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/Og9.jpg'))
-FSUB_IMG = (environ.get('FSUB_IMG', 'https://envs.sh/Og9.jpg')).split() 
+NOR_IMG = environ.get("NOR_IMG", "https://i.ibb.co/23BW1n7H/image.png")
+MELCOW_VID = environ.get("MELCOW_VID", "https://i.ibb.co/23BW1n7H/image.png")
+SPELL_IMG = environ.get("SPELL_IMG", "https://i.ibb.co/23BW1n7H/image.png")
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://i.ibb.co/23BW1n7H/image.png'))
+FSUB_IMG = (environ.get('FSUB_IMG', 'https://i.ibb.co/23BW1n7H/image.png')).split() 
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7907742294').split()]  #Admin Id
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001924025792 -1002469626357 -1002212466294  -1001812588767 -1002132414127').split()] #Movie Database Channel Id
