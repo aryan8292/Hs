@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b>ʜᴇʏ {}, {}\n\n✦ ɪ ᴀᴍ ᴘᴏᴡᴇʀғᴜʟ ᴀᴜᴛᴏ-ғɪʟᴛᴇʀ ʙᴏᴛ.\n✦ ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ᴀɴᴅ ᴡᴇʙ sᴇʀɪᴇs.\n✦ ɪᴛs ᴇᴀsʏ ᴛᴏ ᴜsᴇ ᴍᴇ. ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ.\n\n<a href="https://t.me/SA_Bots">©ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ SA_Bᴏᴛꜱ</a></b>"""
+    START_TXT = """<b>ʜᴇʏ {}, {}\n\n✦ ɪ ᴀᴍ ᴘᴏᴡᴇʀғᴜʟ ᴀᴜᴛᴏ-ғɪʟᴛᴇʀ ʙᴏᴛ.\n✦ ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇs ᴀɴᴅ ᴡᴇʙ sᴇʀɪᴇs.\n✦ ɪᴛs ᴇᴀsʏ ᴛᴏ ᴜsᴇ ᴍᴇ. ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ. </b>"""
 
     FEATURES_TXT = """<b>ʜᴇʀᴇ ɪꜱ ᴀʟʟ ᴍʏ ꜰᴜɴᴛɪᴏɴꜱ.</b>"""
 
@@ -273,7 +273,7 @@ Nᴀᴍᴇ - {}
 ✪ ₹179 - 6 Mᴏɴᴛʜs
 ✪ ₹299 - 1 Yᴇᴀʀ
 •────•────•────•─────
-💵 ᴜᴘɪ ɪᴅ - <code>sabots@ybl</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
+💵 ᴜᴘɪ ɪᴅ - <code>arynetwork@axl</code> [ᴛᴀᴘ ᴛᴏ ᴄᴏᴘʏ]
 
 💢 ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
 ‼️ ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴍᴇ sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ ʟɪsᴛ."""
@@ -309,11 +309,11 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
     CAPTION = """{file_name}({file_size})
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-Click the link below and join the group and download the movie. Otherwise the file will not work.
-🚦Group 1👉 <a href=https://t.me/+Y32snQsuAis0YWQ1>📽 ᴄɪɴᴇᴍᴀ ɢᴀʟᴀxʏ📽</a></b>
-🚦Group 2👉 <a href=https://t.me/SA_movie_request_group>🟢 sᴀ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ 🟢</a></b>
-🚦Group 3👉 <a href=https://t.me/Cinema_Hub_Entertainment>⭕Cɪɴᴇᴍᴀ Hᴜʙ Eɴᴛᴇʀᴛᴀɪɴᴍᴇɴᴛ</a></b>
-🚦Group 4👉 <a href=https://t.me/Movie_junctiongrup>🎗 ᴍᴏᴠɪᴇ ᴊᴜɴᴄᴛɪᴏɴ 🎗</a></b>"""
+# Click the link below and join the group and download the movie. Otherwise the file will not work.
+# 🚦Group 1👉 <a href=https://t.me/+Y32snQsuAis0YWQ1>📽 ᴄɪɴᴇᴍᴀ ɢᴀʟᴀxʏ📽</a></b>
+# 🚦Group 2👉 <a href=https://t.me/SA_movie_request_group>🟢 sᴀ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ 🟢</a></b>
+# 🚦Group 3👉 <a href=https://t.me/Cinema_Hub_Entertainment>⭕Cɪɴᴇᴍᴀ Hᴜʙ Eɴᴛᴇʀᴛᴀɪɴᴍᴇɴᴛ</a></b>
+# 🚦Group 4👉 <a href=https://t.me/Movie_junctiongrup>🎗 ᴍᴏᴠɪᴇ ᴊᴜɴᴄᴛɪᴏɴ 🎗</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
