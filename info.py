@@ -22,12 +22,12 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "7610200234:AAE9OqwCpLNHoC1G3Wh2YSSUnSzwNRB
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://envs.sh/Og9.jpg')).split() 
-NOR_IMG = environ.get("NOR_IMG", "https://i.ibb.co/23BW1n7H/image.png")
+PICS = (environ.get('PICS', 'https://iili.io/FK1jPja.jpg')).split() 
+NOR_IMG = environ.get("NOR_IMG", "https://iili.io/FK1jPja.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/e215d12bfd4fa2155e90e.mp4")
-SPELL_IMG = environ.get("SPELL_IMG", "https://i.ibb.co/23BW1n7H/image.png")
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://i.ibb.co/23BW1n7H/image.png'))
-FSUB_IMG = (environ.get('FSUB_IMG', 'https://i.ibb.co/23BW1n7H/image.png')).split() 
+SPELL_IMG = environ.get("SPELL_IMG", "https://iili.io/FK1jPja.jpg")
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://iili.io/FK1jPja.jpg'))
+FSUB_IMG = (environ.get('FSUB_IMG', 'https://iili.io/FK1jPja.jpg')).split() 
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7907742294').split()]  #Admin Id
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001924025792 -1002469626357 -1002212466294  -1001812588767 -1002132414127').split()] #Movie Database Channel Id
