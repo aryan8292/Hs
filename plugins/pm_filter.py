@@ -76,7 +76,7 @@ async def pm_text(bot, message):
     user = message.from_user.first_name
     user_id = message.from_user.id
     if EMOJI_MODE:
-        await message.react(emoji=random.choice(REACTIONS), big=True)
+        await message.react(emoji=random.choice(REACTIONS), big=False)
     if content.startswith(("/", "#")):
         return  
     try:
