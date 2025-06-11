@@ -41,7 +41,7 @@ support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002682692512') #Support Chat
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://unknown4u108:unknown4u108@cluster0.vucwc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") #MongoDB Url
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'aryan')
 
 # If MULTIPLE_DB Is True Then Fill DATABASE_URI2 Value Else You Will Get Error.
