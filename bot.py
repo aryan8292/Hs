@@ -104,7 +104,7 @@ async def SilentXBotz_start():
         pass
     app = web.AppRunner(await web_server())
     await app.setup()
-    bind_address = "0.0.0.0"
+    bind_address = "https://relaxed-karolina-pandawep02-82eea449.koyeb.app"
     await web.TCPSite(app, bind_address, PORT).start()
     await idle()
     
